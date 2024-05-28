@@ -1,0 +1,7 @@
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\bin\Debug\Exercises_0527.exe.config
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\bin\Debug\Exercises_0527.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\bin\Debug\Exercises_0527.pdb
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\obj\Debug\Exercises_0527.csproj.AssemblyReference.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\obj\Debug\Exercises_0527.csproj.CoreCompileInputs.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\obj\Debug\Exercises_0527.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Exercises_0527\obj\Debug\Exercises_0527.pdb

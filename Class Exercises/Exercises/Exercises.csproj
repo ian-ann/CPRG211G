@@ -43,26 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="05222024\ConsoleApp25\Program.cs" />
-    <Compile Include="05222024\Demo1_Module1_Classes %281%29\Animal.cs" />
-    <Compile Include="05222024\Demo1_Module1_Classes %281%29\Calculator.cs" />
-    <Compile Include="05222024\Demo1_Module1_Classes %281%29\Person.cs" />
-    <Compile Include="05222024\Demo1_Module1_Classes %281%29\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Prompt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="05222024\ConsoleApp25\TextFile1.txt" />
-    <Content Include="05222024\ConsoleApp25\TextFile2.txt" />
-    <Content Include="05222024\Demo1_Module1_Classes %281%29\Demo1_Module1_Classes.sln" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="05222024\ConsoleApp25\App.config" />
-    <None Include="05222024\ConsoleApp25\ConsoleApp25.csproj" />
-    <None Include="05222024\Demo1_Module1_Classes %281%29\App.config" />
-    <None Include="05222024\Demo1_Module1_Classes %281%29\Demo1_Module1_Classes.csproj" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
