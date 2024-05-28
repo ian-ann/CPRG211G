@@ -50,8 +50,5 @@
     <None Include="App.config" />
     <None Include="Lab Creating Classes.docx" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Lab1_Output.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
