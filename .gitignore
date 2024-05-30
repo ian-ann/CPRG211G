@@ -1,19 +1,20 @@
 
-/.vs/CPSY200-G
-/.vs
 /.vs
 /Assignment1/.vs
 /Assignment1/obj
 /Assignment2/.vs
 /Assignment2/obj
-/Assignment3/obj
 /Assignment3/.vs
+/Assignment3/obj
 /Exercise_0527b/obj
 /Exercises/05222024/ConsoleApp25/ConsoleApp25/obj
+/Exercises/05222024/Demo1_Module1_Classes/obj
+/Exercises_0527/obj
+/Exercises/obj
 /Exercises/05222024/ConsoleApp25/.vs
 /Exercises/05222024/Demo1_Module1_Classes/.vs
 /Exercises/05222024/Demo1_Module1_Classes/obj
-/Exercises/obj
+/Exercises/bin
 /Exercises_0527/bin
 /Exercises_0527/obj
 /Lab0/obj
@@ -24,3 +25,4 @@
 /Lab1_old
 /Lab1_old
 /Lab2/obj
+/Lab2/vs
