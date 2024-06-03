@@ -1,0 +1,7 @@
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\bin\Debug\SpaceStation.exe.config
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\bin\Debug\SpaceStation.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\bin\Debug\SpaceStation.pdb
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\obj\Debug\SpaceStation.csproj.AssemblyReference.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\obj\Debug\SpaceStation.csproj.CoreCompileInputs.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\obj\Debug\SpaceStation.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\SpaceStation\obj\Debug\SpaceStation.pdb
