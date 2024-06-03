@@ -5,3 +5,10 @@ C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\ShapesEx
 C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.csproj.CoreCompileInputs.cache
 C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.exe
 C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.pdb
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\bin\Debug\ShapesExercise_0603.exe.config
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\bin\Debug\ShapesExercise_0603.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\bin\Debug\ShapesExercise_0603.pdb
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.csproj.AssemblyReference.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.csproj.CoreCompileInputs.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Class Exercises\ShapesExercise_0603\obj\Debug\ShapesExercise_0603.pdb

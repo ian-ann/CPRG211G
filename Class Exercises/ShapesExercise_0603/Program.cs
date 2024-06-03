@@ -7,26 +7,50 @@ using System.Threading.Tasks;
 
 namespace AbstractExample
 {
-    abstract class Shape
+/*    abstract class Shape
     {
         public abstract double area();
-            }
+            }*/
 
-    class Circle : Shape 
+    public interface IShape
+        { 
+            void area();
+        }
+
+
+    class Rectangle : IShape
     {
+        private double length;
+        private double width;
+
+        public Rectangle(double length, double width)
+        {
+            this.length = length;
+            this.width = width;
+        }
+
+        public void area()
+        {
+            Console.WriteLine("Rectangle Area: {0}", length * width);
+        }
+    }
+    class Circle : IShape //Shape 
+    {
+
         private double radius; 
         public Circle(double r)
         {
             radius = r;
         }
 
-        public override double area()
+        public void area() //public override double area()
         {
-            return (3.14*radius*radius);
+            Console.WriteLine("Circle Area: {0}", 3.14 * radius*radius);
+            //return (3.14*radius*radius);
         }
     }
 
-    class Square: Shape
+    class Square: IShape //Shape
     {
         private double side;
         public Square(double s)
@@ -34,9 +58,10 @@ namespace AbstractExample
             side = s;
         }
 
-        public override double area()
+        public void area() // public override double area()
         {
-            return (side*side);
+            Console.WriteLine("Square Area: {0}", side * side);
+            //return (side*side);
         }
     }
 
@@ -44,10 +69,14 @@ namespace AbstractExample
     {
         static void Main(string[] args)
         {
+            Rectangle r = new Rectangle(2,4);
+            r.area();
             Circle c = new Circle(5.0);
-            Console.WriteLine("Area of Circle = {0}", c.area());
+            c.area();
+            // Console.WriteLine("Area of Circle = {0}", c.area());
             Square s = new Square(2.5);
-            Console.WriteLine("Area of Square = {0}",s.area());
+            s.area();
+            // Console.WriteLine("Area of Square = {0}",s.area());
         }
     }
 }
