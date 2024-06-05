@@ -18,11 +18,13 @@ namespace Lab3b
             int dogAge = int.Parse(Console.ReadLine());
             Console.Write("Enter Dog's height: ");
             double dogHeight = double.Parse(Console.ReadLine());
-            Dog myDog = new Dog();
-            myDog.Name = dogName;
-            myDog.Colour = dogColour;
-            myDog.Age = dogAge;
-            myDog.Height = dogHeight;
+            Dog myDog = new Dog
+            {
+                Name = dogName,
+                Colour = dogColour,
+                Age = dogAge,
+                Height = dogHeight
+            };
 
             // Print dog properties
             Console.WriteLine($"\nDog's name: {myDog.Name}");
@@ -40,11 +42,13 @@ namespace Lab3b
             int catAge = int.Parse(Console.ReadLine());
             Console.Write("Enter Cat's height: ");
             double catHeight = double.Parse(Console.ReadLine());
-            Cat myCat = new Cat();
-            myCat.Name = catName;
-            myCat.Colour = catColour;
-            myCat.Age = catAge;
-            myCat.Height = catHeight;
+            Cat myCat = new Cat
+            {
+                Name = catName,
+                Colour = catColour,
+                Age = catAge,
+                Height = catHeight
+            };
 
             // Print Cat properties
             Console.WriteLine($"\nCat's name: {myCat.Name}");
