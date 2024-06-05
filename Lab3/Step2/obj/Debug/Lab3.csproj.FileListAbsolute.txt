@@ -1,0 +1,7 @@
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\bin\Debug\Lab3.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\obj\Debug\Lab3.exe
+C:\Users\Marian Estrada\OneDrive\QA WORK\Automation Codes\SAIT-CPRG211G\Lab3\obj\Debug\Lab3.pdb
