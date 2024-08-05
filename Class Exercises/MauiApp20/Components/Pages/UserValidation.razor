@@ -1,0 +1,50 @@
+﻿@page "/UserValidation"
+@using MauiApp20.Data
+
+<h3>User Email Validation</h3>
+<label>Users</label>
+<select @onchange="ShowEmail">
+    <option disabled>Select an email</option>
+    @foreach (var u in users)
+    {
+        <option value="@u.Email">@u.Id-------@u.Email</option>
+    }
+
+
+</select>
+<p>Selected Email: @selectedEmail</p>
+<br />
+<br />
+
+<button @onclick="ValidateEmail">Validate</button>
+<p>Message: @message</p>
+
+@code {
+    UserManager um = new UserManager();
+    List<User> users = UserManager.GetUsers(); // ERROR: um.GetUsers()
+    string selectedEmail;
+    string message;
+
+    private void ShowEmail(ChangeEventArgs e)
+    {
+        selectedEmail = e.Value.ToString();
+    }
+
+    private void ValidateEmail()
+    {
+        if (isValidEmail(selectedEmail))  // if (selectedEmail.contains('@')
+        {
+            message = "Valid";
+        }
+        else
+        {
+            message = "Invalid";
+        }
+    }
+    private bool isValidEmail(string email)
+    {
+        return email.Contains('@');
+    }
+
+
+}

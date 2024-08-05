@@ -1,0 +1,46 @@
+﻿@page "/StarRating"
+
+
+
+<style>
+    .star 
+    {
+        cursor: pointer;
+        font-size: 3em;
+        color: blueviolet;
+    }
+    .star.selected
+    {
+     color:gold;
+     }
+
+
+</style>
+<h1>StarRating</h1>
+<input type="text" placeholder="leave Feedback"/>
+<div class="star">
+
+    @for(var i=1;i<=5;i++)
+    {
+        var ratingvalue=i;
+        <span class="star @(i<=currentrating?" selected":"")" @onclick="()=>Setrating(ratingvalue)">
+            
+            &#9733
+        </span>
+
+    }
+    
+
+</div>
+<div>
+    your Rating is : @currentrating
+</div>
+
+
+@code {
+    int currentrating = 0;
+    private void Setrating(int rating)
+    {
+        currentrating = rating;
+    }
+}

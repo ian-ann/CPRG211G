@@ -1,0 +1,63 @@
+﻿@page "/Calculator"
+@using System.Data
+@using Microsoft.AspNetCore.Components.Web
+
+<h3>Calculator</h3>
+
+
+<div class="calculator">
+    <input type="text" class="display" @bind="display" readonly />
+
+    <div class="buttons">
+        <button class="btn" @onclick="() => AppendToDisplay('1'.ToString())">1</button>
+        <button class="btn" @onclick="() => AppendToDisplay('2'.ToString())">2</button>
+        <button class="btn" @onclick="() => AppendToDisplay('3'.ToString())">3</button>
+        <button class="btn op" @onclick="() => AppendToDisplay('+'.ToString())">+</button>
+
+        <button class="btn" @onclick="() => AppendToDisplay('4'.ToString())">4</button>
+        <button class="btn" @onclick="() => AppendToDisplay('5'.ToString())">5</button>
+        <button class="btn" @onclick="() => AppendToDisplay('6'.ToString())">6</button>
+        <button class="btn op" @onclick="() => AppendToDisplay('-'.ToString())">-</button>
+
+        <button class="btn" @onclick="() => AppendToDisplay('7'.ToString())">7</button>
+        <button class="btn" @onclick="() => AppendToDisplay('8'.ToString())">8</button>
+        <button class="btn" @onclick="() => AppendToDisplay('9'.ToString())">9</button>
+        <button class="btn op" @onclick="() => AppendToDisplay('*'.ToString())">*</button>
+
+        <button class="btn action" @onclick="ClearDisplay">C</button>
+        <button class="btn" @onclick="() => AppendToDisplay('0'.ToString())">0</button>
+        <button class="btn equals" @onclick="CalculateResult">=</button>
+        <button class="btn op" @onclick="() => AppendToDisplay('/'.ToString())">/</button>
+    </div>
+</div>
+
+@code {
+    string display = "";
+
+    void AppendToDisplay(string value)
+    {
+        display += value;
+    }
+
+    void ClearDisplay()
+    {
+        display = "0";
+    }
+
+    void CalculateResult()
+    {
+        try
+        {
+            display = Evaluate(display).ToString();
+        }
+        catch (Exception)
+        {
+            display = "Error";
+        }
+    }
+
+    double Evaluate(string expression)
+    {
+        return Convert.ToDouble(new DataTable().Compute(expression, null));
+    }
+}

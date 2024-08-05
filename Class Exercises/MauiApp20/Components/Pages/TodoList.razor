@@ -1,0 +1,77 @@
+﻿@page "/TodoList"
+
+
+<h1>Country Name</h1>
+<select @bind="selecteditem">
+
+    @foreach (var item in countryname)
+    {
+
+        <option value="@item">@item</option>
+
+
+
+    }
+</select>
+<h1>I have selected: @selecteditem </h1>
+
+
+
+<h1>TodoList</h1>
+<input type="text" @bind="newTodo"/>
+
+<button class="" @onclick="AddTodo">Add </button>
+@if(todos.Any())
+{
+    <ul>
+
+        @foreach(var todo in todos)
+        {
+            <li>
+                @todo
+                <button @onclick="()=>RemoveTodo(todo)">Remove </button>
+            </li>
+        }
+        
+    </ul>
+}
+@code {
+
+    //bind the list of array items
+    private List<string> countryname = new List<string>
+    {
+        "Cabo Verde",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+         "Chad",
+         "China",
+         "Colombia"
+
+    };
+    string selecteditem{ get; set; }
+
+
+    // start your C# code here
+    private List<string> todos = new List<string>();
+    string newTodo;
+
+
+    private void AddTodo()
+    {
+        if(!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(newTodo);
+            newTodo = string.Empty;
+        }
+        // else
+        // {
+        //     Console.WriteLine("No items in the list");
+        // }
+
+    }
+    private void RemoveTodo(string todo)
+    {
+        todos.Remove(todo);
+    }
+}
